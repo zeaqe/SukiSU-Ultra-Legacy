@@ -162,7 +162,7 @@ DEFINE_MEMBER(task_struct, thread_info)
 DEFINE_MEMBER(task_struct, cgroups)
 #endif
 #ifdef CONFIG_SECURITY
-DEFINE_MEMBER(task_struct, security)
+// DEFINE_MEMBER(task_struct, security)
 #endif
 DEFINE_MEMBER(task_struct, thread)
 DYNAMIC_STRUCT_END(task_struct)
