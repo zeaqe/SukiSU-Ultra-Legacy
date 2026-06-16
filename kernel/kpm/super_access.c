@@ -20,7 +20,6 @@
 #include <asm/cacheflush.h>
 #include <linux/module.h>
 #include <linux/vmalloc.h>
-#include <linux/set_memory.h>
 #include <linux/version.h>
 #include <linux/export.h>
 #include <linux/slab.h>
